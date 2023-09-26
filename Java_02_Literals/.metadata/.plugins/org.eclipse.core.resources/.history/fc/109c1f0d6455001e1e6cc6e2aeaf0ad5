@@ -1,0 +1,18 @@
+package com.dl.one;
+
+public class Eg3 {
+
+	public static void main(String[] args) {
+		
+		// String is immutable in nature
+		String s1 = "Java";
+		String s = s1.concat("Python");
+		System.out.println(s);
+		System.out.println(s1);
+		
+		String s2  = new String("JavaPython");
+		System.out.println(s == s2);
+		System.out.println(s2.equals(s));
+
+	}
+}

@@ -1,0 +1,22 @@
+package com.dl.one;
+
+public class Eg5 {
+
+	public static void main(String[] args) {
+		
+		String s1 = "Java is Easy Programming Language";
+		
+		System.out.println(s1.length()); //33
+		
+		System.out.println(s1.charAt(3));
+	    //System.out.println(s1.charAt(35)); // java.lang.StringIndexOutOfBoundsException
+		
+		//System.out.println(s1.charAt(-1)); // java.lang.StringIndexOutOfBoundsException
+		
+        String s2 = "Java is Easy Programming Language";
+		System.out.println(s2.length()); //31
+		
+		System.out.println(s2.indexOf('3'));
+		System.out.println(s2.lastIndexOf('3'));		
+	}
+}

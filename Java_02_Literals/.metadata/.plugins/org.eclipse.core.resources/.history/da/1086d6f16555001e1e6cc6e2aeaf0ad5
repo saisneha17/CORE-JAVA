@@ -1,0 +1,16 @@
+package com.dl.one;
+
+public class Eg5 {
+
+	public static void main(String[] args) {
+		
+		String s1 = "Java is Easy Programming Language";
+		
+		System.out.println(s1.length()); //33
+		
+		System.out.println(s1.charAt(3));
+		 System.out.println(s1.charAt(35)); // 
+
+	}
+
+}

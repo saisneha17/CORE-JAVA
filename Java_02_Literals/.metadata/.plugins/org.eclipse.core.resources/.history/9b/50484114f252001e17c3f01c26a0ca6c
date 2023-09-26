@@ -1,0 +1,13 @@
+package com.dl.one;
+
+public class Eg2 {
+
+	public static void main(String[] args) {
+		
+		// String type to Object Type
+		
+		String s1 = "10";
+		Integer i = new Integer(s1);
+		System.out.println(i);
+	}
+}

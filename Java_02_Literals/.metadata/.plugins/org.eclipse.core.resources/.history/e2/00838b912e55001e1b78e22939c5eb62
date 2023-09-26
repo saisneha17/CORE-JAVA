@@ -1,0 +1,28 @@
+package com.dl.one;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// Create an array of numbers
+		int[] numbers = {12, 45, 7, 23, 56, 34, 8, 19, 67, 3};
+		
+		//Initialize variables to hold minimum and maximum values
+		int min_value = numbers[0]; //Assume the first element is minimum
+		int max_value = numbers[0]; //Assume the first element is maximum
+		
+		//Iterate through the array to find the minimum and maximum values
+		for(int i = 1; i < numbers.length; i++) {
+			if (numbers[i] < min_value) {
+				min_value = numbers[i];
+			}
+			if (numbers[i] > min_value) {
+				max_value = numbers[i];
+			}	
+		}
+		// Print the results
+		
+		System.out.println("Minimum value: " + min_value);
+		System.out.println("Minimum value: " + min_value);
+	}
+
+}

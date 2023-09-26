@@ -1,0 +1,55 @@
+package com.dl.one;
+
+//pojo class
+public class CreateAccount {
+	
+	//properties //instance v
+	private String userName;
+	private String email;
+	private String password;
+	private long contactNo;
+	private String address;
+	
+	//default cons
+	public CreateAccount() {
+	}
+	
+	//Para cons
+	public CreateAccount(String userName, String email, String password, long contactNo, String address) {
+		this.userName = userName;
+		this.email = email;
+		this.password = password;
+		this.contactNo = contactNo;
+		this.address = address;
+	}
+
+//	public CreateAccount(String userName, String email, String password, long contactNo, String address) {
+//		userName = userName;
+//		email = email;
+//		password = password;
+//		contactNo = contactNo;
+//		address = address;
+//	}
+
+//	public CreateAccount(String uName, String mail, String pword, long cNo, String add) {
+//	userName = uName;
+//	email = mail;
+//	password = pword;
+//	contactNo = cNo;
+//	address = add;
+//  }
+
+	//instance method
+	public void display() {
+		System.out.println(userName);
+		System.out.println(email);
+		System.out.println(password);
+		System.out.println(contactNo);
+		System.out.println(address);
+	}
+	public static void main(String[] args) {
+		
+		CreateAccount account = new CreateAccount("Sai chandra","saichandra@gmail.com","admin@1234",9491472779L,"Hyd");
+		account.display();
+	}
+	}

@@ -1,0 +1,21 @@
+package com.dl.casestudy;
+
+public class UserProfile {
+	
+	// properties
+	int userId;
+	String userName;
+	long contactNo;
+	String city;
+	
+	//cons using fields
+	public UserProfile(int userId, String userName, long contactNo, String city) {
+		this.userId = userId;
+		this.userName = userName;
+		this.contactNo = contactNo;
+		this.city = city;
+		
+
+	}
+
+}

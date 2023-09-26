@@ -1,0 +1,14 @@
+package com.dl.one;
+
+public class Eg7 {
+
+	public static void main(String[] args) {
+		// While Loop
+		//if we don't know the number of iterations in advance
+		while (true) {
+			System.out.println("Infinity Loop");
+		}
+
+	}
+
+}

@@ -1,0 +1,36 @@
+package com.dl.one;
+
+public class Eg5 {
+
+	public static void main(String[] args) {
+		
+		int a[] = {10, 20, 30, 40, 50};
+		
+		for(int i = 0; i<a.length; i++) {
+			System.out.println(a[i]);
+		}
+		
+		int i = 0;
+		while(i<a.length) {
+			System.out.println(a[i]);
+			i++;
+		}
+		
+		System.out.println();
+		
+		i = 0;
+		do {
+			System.out.println(a[i]);
+			i++;	
+		} while (i<a.length);
+		
+		System.out.println();
+		
+		//Arrays and Objects
+		for (int ii : a) {
+			System.out.println(ii);
+		}
+
+	}
+
+}

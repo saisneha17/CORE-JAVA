@@ -1,0 +1,11 @@
+package com.dl.one;
+
+public class Parent {
+	
+	void m1();
+	
+	public abstract void m2();
+
+	}
+
+}

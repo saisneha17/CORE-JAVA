@@ -1,0 +1,13 @@
+package com.dl.one;
+
+public class Eg5 {
+
+	public static void main(String[] args) {
+		
+		//int a[] = new int[-5]; // java.lang.NegativeArraySizeException: -5
+		
+		int a[] = new int[0];
+		a[0]=10;
+		System.out.println(a[0]); // java.lang.ArrayIndexOutOfBoundsException:
+	}
+}

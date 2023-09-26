@@ -1,0 +1,20 @@
+package com.dl.variable;
+
+public class Child extends Parent {
+	
+	int a = 10;
+	int b = 20;
+	
+	public void m2() {
+		System.out.println(this.a);
+		System.out.println(this.b);
+		
+		System.out.println(super.a);
+		System.out.println(super.b);
+	}
+	public static void main(String[] args) {
+		
+		Child child = new Child();
+	}
+
+}

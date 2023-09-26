@@ -1,0 +1,70 @@
+package com.dl.six;
+
+interface A{
+	
+	void m1();
+	void m2();
+}
+
+abstract class B implements A{
+	
+	public abstract void m3();
+}
+
+abstract class C extends B{
+	
+	void m4() {
+		
+}
+
+public class Eg1 extends C implements A {
+
+	@Override
+	public void m1() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void m2() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void m3() {
+		// TODO Auto-generated method stub
+		
+	}
+	public static void main(String[] args) {
+		
+		Integer i =new Integer(10);
+
+
+	}
+ }
+}
+
+//public class Eg1 extends B implements A {
+//
+//	@Override
+//	public void m1() {
+//		// TODO Auto-generated method stub
+//		
+//	}
+//
+//	@Override
+//	public void m2() {
+//		// TODO Auto-generated method stub
+//		
+//	}
+//
+//	@Override
+//	public void m3() {
+//		// TODO Auto-generated method stub
+//		
+//	}
+//
+//}
+	
+

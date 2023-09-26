@@ -1,0 +1,11 @@
+package com.dl.one;
+
+public class Eg5 {
+
+	public static void main(String[] args) {
+		
+		int a[] = new int[-5];
+
+	}
+
+}

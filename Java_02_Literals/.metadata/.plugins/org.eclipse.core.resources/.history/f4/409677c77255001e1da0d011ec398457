@@ -1,0 +1,14 @@
+package com.dl.one;
+
+public class Eg7 {
+
+	public static void main(String[] args) {
+		
+		// length() and length keyword
+		String s1 = "java";
+		System.out.println(s1.length());
+		
+		char ch[] = {'j','a','v','a'};
+		System.out.println(ch.length);
+	}
+}

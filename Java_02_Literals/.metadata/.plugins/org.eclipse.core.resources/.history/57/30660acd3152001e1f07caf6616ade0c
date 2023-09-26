@@ -1,0 +1,15 @@
+package com.dl.one;
+
+//public class Eg3 extends Eg2 {
+//
+//}
+public class Eg3 {
+	
+	public static void main(String[] args) {
+		
+		Eg2 eg2 = new Eg2();
+		System.out.println(eg2.maxValue);
+		System.out.println(eg2.minValue);
+		
+	}
+}

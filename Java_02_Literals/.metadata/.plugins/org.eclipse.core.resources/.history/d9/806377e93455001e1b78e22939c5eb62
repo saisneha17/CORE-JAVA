@@ -1,0 +1,28 @@
+package com.dl.casestudy;
+
+public class Client {
+
+	public static void main(String[] args) {
+		
+		new Client.r1();
+		System.out.println();
+		new Client.r2();
+	}
+	
+	public void r1() {
+		UserProfile userProfile = new UserProfile(1, "Sai sneha", 9014979933L, "Hyd");
+		UserProfile profile[] = {userProfile};
+		UserDetails details = new UserDetails(1, profile);
+		//int a[] = {10, 20, 30, 40, 50};
+		details.display();
+	}
+	
+	public void r2() {
+		UserProfile userProfile = new UserProfile(1, "Sai sneha", 9014979933L, "Hyd");
+		UserProfile profile[] = {userProfile};
+		UserDetails details = new UserDetails(1, profile);
+		//int a[] = {10, 20, 30, 40, 50};
+		details.display();
+	}
+
+}

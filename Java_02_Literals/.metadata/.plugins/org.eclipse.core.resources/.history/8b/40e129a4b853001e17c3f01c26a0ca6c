@@ -1,0 +1,23 @@
+package com.dl.three;
+
+public class User {
+	
+	public User() {
+		this("Sai Chandana", "Admin"):
+			System.out.println("Default Cons");
+	}
+
+	public static void main(String[] args) {
+		this("Hyd", 9014979933L);
+		System.out.println(userName);
+		System.out.println(password);
+	}
+	public User(String userAddress, long userContactNo) {
+		System.out.println(userAddress);
+		System.out.println(userContactNo);	
+	}
+	
+	public static void main(String[] args) {
+		new User();
+	}
+}

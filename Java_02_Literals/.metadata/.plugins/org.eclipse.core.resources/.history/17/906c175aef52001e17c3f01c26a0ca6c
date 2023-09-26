@@ -1,0 +1,25 @@
+package com.dl.one;
+
+public class Eg1 {
+	
+	@SuppressWarnings("removal")
+	public static void main(String[] args) {
+		
+		//primitive to object type
+		int i = 10;
+		System.out.println(i); //10
+		
+		//Para Cons
+		Integer i1 =  new Integer(i);
+		System.out.println(ii);
+		
+		//valueOf()
+		Integer valueOf = Integer.valueOf(i);
+		System.out.println(valueOf);
+		
+		//autoBoxing
+		Integer auto = 1; //new Integer(i);
+		System.out.println(auto);
+		
+	}
+}
